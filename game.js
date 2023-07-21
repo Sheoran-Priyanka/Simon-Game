@@ -73,7 +73,7 @@ var pattern = [];
 var level = 0,i = 0;
 var userclickedpattern = [];
 
-$(document).keypress(function(){
+$("h1).click(function(){
     if(!started)
     {
         started = true;
@@ -152,7 +152,7 @@ function checkSequence(currentLevel){
 
 
 function gameover(){
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Click here to Restart");
     userclickedpattern = [];
     pattern = []; 
     started = false;
