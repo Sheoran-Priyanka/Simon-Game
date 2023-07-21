@@ -73,7 +73,7 @@ var pattern = [];
 var level = 0,i = 0;
 var userclickedpattern = [];
 
-$("h1).click(function(){
+$("h1").click(function(){
     if(!started)
     {
         started = true;
