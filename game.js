@@ -54,7 +54,7 @@ function checkSequence(currentLevel){
         }
 }
 
-
+ 
 
 function gameover(){
     $("#level-title").text("Game Over, Click here to Restart");
